@@ -7,6 +7,10 @@ button.addEventListener("mouseenter", function(){
     incrementValue();
 });
 
+button.addEventListener("click", function(){
+    window.location = 'congrats.html';
+});
+
 function incrementValue(){
     value++;
     value = isNaN(value) ? 0 : value;
