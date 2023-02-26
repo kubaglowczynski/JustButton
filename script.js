@@ -8,7 +8,7 @@ button.addEventListener("mouseenter", function(){
 });
 
 button.addEventListener("click", function(){
-    window.location = 'congrats.html';
+    window.location = '/end-page/index.html';
 });
 
 function incrementValue(){
